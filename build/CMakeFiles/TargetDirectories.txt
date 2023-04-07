@@ -1,0 +1,3 @@
+/home/reidlo/vsWorkspace/c/build/CMakeFiles/rebuild_cache.dir
+/home/reidlo/vsWorkspace/c/build/CMakeFiles/edit_cache.dir
+/home/reidlo/vsWorkspace/c/build/CMakeFiles/study_ex01.dir

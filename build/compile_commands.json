@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/reidlo/vsWorkspace/c/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu11 -o CMakeFiles/study_ex01.dir/main.c.o   -c /home/reidlo/vsWorkspace/c/study_ex01/main.c",
+  "file": "/home/reidlo/vsWorkspace/c/study_ex01/main.c"
+}
+]
