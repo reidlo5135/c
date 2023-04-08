@@ -1,1 +1,0 @@
-/usr/bin/gcc -g  -rdynamic CMakeFiles/study_ex01.dir/main.c.o  -o study_ex01 

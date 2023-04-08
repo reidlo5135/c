@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/reidlo/vsWorkspace/c/study_ex01
+CMAKE_SOURCE_DIR = /home/wavem/vsWorkspace/c/study_ex02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/reidlo/vsWorkspace/c/build
+CMAKE_BINARY_DIR = /home/wavem/vsWorkspace/c/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/reidlo/vsWorkspace/c/build/CMakeFiles /home/reidlo/vsWorkspace/c/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wavem/vsWorkspace/c/build/CMakeFiles /home/wavem/vsWorkspace/c/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/reidlo/vsWorkspace/c/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wavem/vsWorkspace/c/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named study_ex01
+# Target rules for targets named study_ex02
 
 # Build rule for target.
-study_ex01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 study_ex01
-.PHONY : study_ex01
+study_ex02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 study_ex02
+.PHONY : study_ex02
 
 # fast build rule for target.
-study_ex01/fast:
-	$(MAKE) -f CMakeFiles/study_ex01.dir/build.make CMakeFiles/study_ex01.dir/build
-.PHONY : study_ex01/fast
+study_ex02/fast:
+	$(MAKE) -f CMakeFiles/study_ex02.dir/build.make CMakeFiles/study_ex02.dir/build
+.PHONY : study_ex02/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/study_ex01.dir/build.make CMakeFiles/study_ex01.dir/main.c.o
+	$(MAKE) -f CMakeFiles/study_ex02.dir/build.make CMakeFiles/study_ex02.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/study_ex01.dir/build.make CMakeFiles/study_ex01.dir/main.c.i
+	$(MAKE) -f CMakeFiles/study_ex02.dir/build.make CMakeFiles/study_ex02.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/study_ex01.dir/build.make CMakeFiles/study_ex01.dir/main.c.s
+	$(MAKE) -f CMakeFiles/study_ex02.dir/build.make CMakeFiles/study_ex02.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... study_ex01"
+	@echo "... study_ex02"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
