@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/wavem/vsWorkspace/c/build",
-  "command": "/usr/bin/gcc   -g   -std=gnu11 -o CMakeFiles/study_ex02.dir/main.c.o   -c /home/wavem/vsWorkspace/c/study_ex02/main.c",
-  "file": "/home/wavem/vsWorkspace/c/study_ex02/main.c"
-}
-]
