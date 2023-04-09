@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "include/static.h"
 
 void simple(void) {
